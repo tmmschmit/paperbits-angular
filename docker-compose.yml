@@ -1,11 +1,11 @@
-version: '3.3'
+version: "3.3"
 services:
   web:
     image: teracy/angular-cli:latest
     ports:
       - 5555:4200
     volumes:
-      - .:/opt/app/
+      - .:/opt/app/paperbits-angular
     stdin_open: true
     tty: true
     working_dir: /opt/app/paperbits-angular
