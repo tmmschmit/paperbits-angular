@@ -20,9 +20,9 @@
     "listFiles": false,
     "allowSyntheticDefaultImports": true,
     "incremental": true,
-    "target": "es2015",
+    "target": "es6",
     "module": "es2020",
-    "lib": ["es2018", "dom"]
+    "lib": ["es2019", "dom"]
   },
   "angularCompilerOptions": {
     "enableIvy": true,
